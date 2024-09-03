@@ -1,0 +1,13 @@
+{% set name = "rwtools" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  path: ./src
+
+requirements:
+  run:
+    - python
