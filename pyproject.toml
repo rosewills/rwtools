@@ -16,7 +16,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 requires-python = ">=3.8"
-dependencies = ["git"]
 
 [project.urls]
 Homepage = "https://github.com/rosewills/rwtools"
